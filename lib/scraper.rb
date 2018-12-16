@@ -43,6 +43,5 @@ class Scraper
    profile
  end 
  
- 
 end
 
