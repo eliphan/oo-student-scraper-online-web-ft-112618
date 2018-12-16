@@ -12,7 +12,8 @@ class Scraper
         student_name = student.css("h4.student-name")
         
    binding.pry
- 
+    
+    end
    
    end
      
