@@ -34,6 +34,7 @@ class Scraper
       :blog => link.attribute("href").value
   
   end
+end
 
  end 
 end
