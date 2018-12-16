@@ -36,7 +36,7 @@ class Scraper
       end    
     quotes = doc.css(".profile-quote").text  
     profile[:profile_quote] = quotes
-    bioph = 
+    bioph = doc.css("")
   end
   
 
