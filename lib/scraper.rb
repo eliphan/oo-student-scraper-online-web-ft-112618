@@ -26,6 +26,10 @@ class Scraper
     links = doc.css(".social-icon-container").children.css("a").map do |link|
       link.attribute("href").value
       
+    if links.includes?("linkedin")
+      :linkedin => link.attribute("href").value
+      
+    
   
   end
 
