@@ -24,7 +24,7 @@ class Scraper
     profile = {}
     
     doc.css(".vitals-container").each do |vital|
-      vital.css(".")
+      vital.css(".social-icon-container")
     
     binding.pry
   end
