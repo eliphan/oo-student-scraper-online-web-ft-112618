@@ -24,7 +24,7 @@ class Scraper
     profile = {}
     
     doc.css(".social-icon-container").each do |icon|
-    
+     icon.attr
     
     binding.pry
   end
