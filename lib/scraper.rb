@@ -27,7 +27,12 @@ class Scraper
     binding.pry
     links.map do |link|
       if link.include?("linkedin")
-        profile[:linkedin] = 
+        profile[:linkedin] = link
+      if link.include?("github")
+        profile[:github] = link
+      if link.include?("blog")
+        profile[:blog] = link
+        
       
  
   end
