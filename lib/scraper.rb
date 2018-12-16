@@ -25,7 +25,7 @@ class Scraper
     
     doc.css(".social-icon-container").each do |socials|
      socials.css("a").each do |links|
-    
+      
     binding.pry
   end
 end
