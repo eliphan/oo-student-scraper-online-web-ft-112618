@@ -36,7 +36,7 @@ class Scraper
         profile[:twitter] = link
       end    
       
- 
+  end
   end
 
 
