@@ -13,7 +13,7 @@ class Scraper
         student_name = student.css(".student-name").text
         studen_location = student.css(".student-location").text
         profile_url = student.attr("href")
-      students << {student_name:   
+      students << {:name   
    binding.pry
     
     end
