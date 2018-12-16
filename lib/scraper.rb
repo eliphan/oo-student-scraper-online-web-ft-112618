@@ -24,7 +24,7 @@ class Scraper
     profile = {}
     
     doc.css(".social-icon-container a").each do |links|
-     links.attr("href")
+     links.attr("href").each do |link|
     
     binding.pry
   end
