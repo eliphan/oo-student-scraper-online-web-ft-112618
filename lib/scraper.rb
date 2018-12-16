@@ -33,7 +33,8 @@ class Scraper
         profile[:twitter] = link
       else 
         profile[:blog] = link
-      end    
+      end   
+      
     quotes = doc.css(".profile-quote").text  
     profile[:profile_quote] = quotes
     bioph = doc.css(".content-holder p").text
