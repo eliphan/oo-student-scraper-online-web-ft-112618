@@ -25,7 +25,7 @@ class Scraper
     
     doc.css(".vitals-container").each do
     
-    
+    binding.pry
   end
 
 end
