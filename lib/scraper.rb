@@ -24,7 +24,6 @@ class Scraper
     profile = {}
     
     links = doc.css(".social-icon-container a").map {|link| link.attribute("href").value}
-    binding.pry
     links.map do |link|
       if link.include?("linkedin")
         profile[:linkedin] = link
