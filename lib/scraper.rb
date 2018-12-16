@@ -31,7 +31,7 @@ class Scraper
         profile[:github] = link
       elsif link.include?("twitter")
         profile[:twitter] = link
-      elsif link.include?("blog")
+      else 
         profile[:blog] = link
       end    
     quotes = doc.css(".profile-quote").text  
