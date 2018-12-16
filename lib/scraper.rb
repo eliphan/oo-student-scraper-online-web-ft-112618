@@ -11,7 +11,7 @@ class Scraper
     doc.css(".roster-cards-container").each do |card|
       card.css(".student-card a").each do |student|
         student_name = student.css(".student-name").text
-        studen_location = student.css(".student-location").text
+        student_location = student.css(".student-location").text
         student_url = student.attr("href")
       students << {name: student_name, location: student_location, profile_url: student.url}
    binding.pry
