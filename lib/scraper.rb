@@ -30,7 +30,8 @@ class Scraper
       :linkedin => link.attribute("href").value
     if links.include?("github")
       :github => link.attribute("href").value
-    
+    if links.include?("blog")
+      :blog => 
   
   end
 
