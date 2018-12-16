@@ -11,7 +11,7 @@ class Scraper
       card.css(".student-card a")
      binding.pry
  
-    end
+   
    end
      
   end
