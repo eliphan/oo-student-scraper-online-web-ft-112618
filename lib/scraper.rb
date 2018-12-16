@@ -34,7 +34,7 @@ class Scraper
       elsif link.include?("blog")
         profile[:blog] = link
       end    
-    quotes = doc.css("profile-quote").text  
+    quotes = doc.css(".profile-quote").text  
     profile[:profile_quote] = quotes
     binding.pry
   end
