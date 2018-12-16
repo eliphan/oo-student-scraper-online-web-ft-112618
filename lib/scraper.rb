@@ -26,7 +26,7 @@ class Scraper
     doc.css(".social-icon-container").children.css("a").map do |links|
       links.attribute("href").value
       
-    binding.pry
+  
   end
 
  end 
