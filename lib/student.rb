@@ -11,7 +11,7 @@ class Student
 
   def self.create_from_collection(students_array)
     new_student = student.new(student_hash)
-    students_array.each {|student| self.send
+    students_array.map do |student| self.send
   end
 
   def add_student_attributes(attributes_hash)
