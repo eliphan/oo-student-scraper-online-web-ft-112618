@@ -27,7 +27,7 @@ class Scraper
      links.attr("href").each do |link|
     binding.pry
   end
-  
+end
  end 
 end
 
