@@ -12,8 +12,8 @@ class Scraper
       card.css(".student-card a").each do |student|
         student_name = student.css(".student-name").text
         studen_location = student.css(".student-location").text
-        profile_url = student.attr("href")
-      students << {:name   
+        student_url = student.attr("href")
+      students << {name: student_name, location: student_location, profile_url: student.url}
    binding.pry
     
     end
