@@ -23,7 +23,7 @@ class Scraper
     doc = Nokogiri::HTML(open(profile_url))
     profile = {}
     
-    doc.css(".social-icon-container a").children.css("a").each do |links|
+    doc.css(".social-icon-container a").each do |links|
      links.attr("href")
     ('div#reference a')
     binding.pry
