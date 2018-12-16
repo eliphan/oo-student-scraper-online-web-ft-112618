@@ -38,9 +38,9 @@ class Scraper
       
   end
   end
+  
 
-
-
+  profile
 
  end 
  
