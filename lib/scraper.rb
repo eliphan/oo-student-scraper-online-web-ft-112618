@@ -25,8 +25,7 @@ class Scraper
     
     doc.css(".social-icon-container").each do |icon|
      icon.cssattr("href")
-    project.css("div.project-thumbnail a img").attribute("src").value
-    binding.pry
+  
   end
   
  end 
