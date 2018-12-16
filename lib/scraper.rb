@@ -32,7 +32,7 @@ class Scraper
         profile[:github] = link
       if link.include?("blog")
         profile[:blog] = link
-    end    
+      end    
       
  
   end
