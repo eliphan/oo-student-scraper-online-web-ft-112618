@@ -28,7 +28,7 @@ class Scraper
     links.map do |link|
       if link.include?("linkedin")
         profile[:linkedin] = link
-      if link.include?("github")
+      elsif link.include?("github")
         profile[:github] = link
       if link.include?("blog")
         profile[:blog] = link
