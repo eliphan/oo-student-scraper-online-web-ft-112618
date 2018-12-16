@@ -39,10 +39,7 @@ class Scraper
     bioph = doc.css(".content-holder p").text
     profile[:bio] = bioph
   end
-  
-
   profile
-
  end 
  
  
